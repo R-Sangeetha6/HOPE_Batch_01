@@ -1,0 +1,23 @@
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        char[] charray1=s.toCharArray();
+        char[] charray2=t.toCharArray();
+        Arrays.sort(charray1);
+        Arrays.sort(charray2);
+       s=String.valueOf(charray1);
+       t=String.valueOf(charray2);
+
+        if(s.equals(t)){
+            return true;
+        }
+        else{
+            return false;
+        }
+      
+    }
+}
+
+
+        
+        
+        
