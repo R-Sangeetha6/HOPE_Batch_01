@@ -3,12 +3,7 @@
         System.out.print("I am inside Apartment class");
 
     }
-
-
 }
-
-
-
 public class ClassObjects {
     public static void main(String[] args) {
        
@@ -17,9 +12,5 @@ public class ClassObjects {
         System.out.println("I am inside classObjects class");
         Apartment ap=new Apartment();
         ap.display();
-
-        
-        
-       
     }
 }
