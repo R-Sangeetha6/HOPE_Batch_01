@@ -4,44 +4,35 @@ public class StringBuilderConcept {
 
         StringBuilder sb = new StringBuilder("Hello");
 
-        // 1. append()
+        //  append()
         sb.append(" World");
         System.out.println("After append: " + sb);
 
-        // 2. insert()
+        // insert()
         sb.insert(5, " Java");
         System.out.println("After insert: " + sb);
 
-        // 3. replace()
+        //  replace()
         sb.replace(0, 5, "Hi");
         System.out.println("After replace: " + sb);
 
-        // 4. delete()
+        //  delete()
         sb.delete(2, 7);
         System.out.println("After delete: " + sb);
 
-        // 5. deleteCharAt()
+        //  deleteCharAt()
         sb.deleteCharAt(1);
         System.out.println("After deleteCharAt: " + sb);
 
-        // 6. reverse()
+        //  reverse()
         sb.reverse();
         System.out.println("After reverse: " + sb);
 
-        // 7. length()
+        // length()
         System.out.println("Length: " + sb.length());
 
-        // 8. capacity()
-        System.out.println("Capacity: " + sb.capacity());
-
-        // 9. charAt()
-        System.out.println("Character at index 1: " + sb.charAt(1));
-
-        // 10. setCharAt()
-        sb.setCharAt(0, 'X');
-        System.out.println("After setCharAt: " + sb);
-
-        // 11. toString()
+       
+        // toString()
         String str = sb.toString();
         System.out.println("Converted to String: " + str);
     }
