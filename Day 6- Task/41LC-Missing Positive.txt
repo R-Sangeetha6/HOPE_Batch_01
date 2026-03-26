@@ -1,0 +1,16 @@
+class Solution {
+    public int firstMissingPositive(int[] nums) {
+      HashMap<Integer,Integer> hash=new HashMap<>();
+       
+        for(int i:nums){
+            hash.put(i,1);
+        }
+
+        for(int count=1;count<=100000;count++){
+            if(!hash.containsKey(count)){
+                return count;
+            }
+        }
+        return nums.length+1;
+    }
+}
