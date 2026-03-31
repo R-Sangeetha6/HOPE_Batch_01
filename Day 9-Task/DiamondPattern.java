@@ -24,7 +24,7 @@ class CollegeMember implements Student, Teacher {
     }
 }
 
-public class Main {
+public class DiamondPattern {
     public static void main(String[] args) {
 
         CollegeMember c = new CollegeMember();
